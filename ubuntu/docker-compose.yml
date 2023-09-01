@@ -1,0 +1,9 @@
+version: '3'
+services:
+  test_enviroment:
+    build: .
+    ports:
+      - 8083:8080
+    tty: true
+    volumes:
+      - .:/home/nobukuni
